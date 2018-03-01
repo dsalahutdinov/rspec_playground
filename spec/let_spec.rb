@@ -1,6 +1,6 @@
 require_relative '../test_logger'
 
-RSpec.describe 'BeforePlayGround' do
+RSpec.describe 'LetPlayground' do
   let(:some_data) do
     TestLogger.log self, 'calculate some data'
     'some data'
